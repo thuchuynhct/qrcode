@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    body {
+        @apply w-screen h-screen flex justify-center items-center bg-main select-none;
+    }
+}
+
+@layer utilities {
+    .no-scroll::-webkit-scrollbar {
+        display: none;
+    }
+
+    .btn {
+        @apply hover:-translate-y-1 text-white bg-second px-12 py-2 font-medium rounded-3xl transition-all duration-300 ease-linear;
+    }
+
+    .btn-white {
+        @apply py-2 text-lg font-medium;
+    }
+
+    .form-flex {
+        @apply flex flex-col justify-center items-center py-10;
+    }
+
+}
