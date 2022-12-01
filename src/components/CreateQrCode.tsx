@@ -5,7 +5,7 @@ function CreateQrCode({ setQrLink, setIsRead }: { setQrLink: any, setIsRead: any
 
     const onSubmit = (e: any) => {
         e.preventDefault();
-        const url = "http://api.qrserver.com/v1/create-qr-code/";
+        const url = "https://api.qrserver.com/v1/create-qr-code/";
         setQrLink(url + "?data=" + contentQrCode.current)
         setIsRead(2);
     }

@@ -7,7 +7,7 @@ function ReadQrCode({ img }: { img: string }) {
     const formData = useRef(new FormData());
 
     function fetchRequest() {
-        fetch("http://api.qrserver.com/v1/read-qr-code/",
+        fetch("https://api.qrserver.com/v1/read-qr-code/",
             {
                 method: 'POST',
                 body: formData.current
