@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/qrcode/static/css/main.ebc62ae4.css",
-    "main.js": "/qrcode/static/js/main.5150334c.js",
+    "main.js": "/qrcode/static/js/main.e98d221d.js",
     "index.html": "/qrcode/index.html"
   },
   "entrypoints": [
     "static/css/main.ebc62ae4.css",
-    "static/js/main.5150334c.js"
+    "static/js/main.e98d221d.js"
   ]
 }
